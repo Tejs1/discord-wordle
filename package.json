@@ -1,0 +1,21 @@
+{
+	"name": "discord-bot",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"start": "bun run src/index.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/express": "^4.17.21"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"discord.js": "^14.15.3",
+		"hono": "^4.5.4"
+	}
+}
